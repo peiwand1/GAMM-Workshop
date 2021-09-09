@@ -425,6 +425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teletubbie_huisje
       objectReference: {fileID: 0}
+    - target: {fileID: 2586607309129781981, guid: 9b1f18391698e254a85a74fa0d48f907, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3f4d3629f03f7824a90cd418af45195d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b1f18391698e254a85a74fa0d48f907, type: 3}
 --- !u!1 &1404322562
