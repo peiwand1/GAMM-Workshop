@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
     private float movementX;
     private float movementY;
+    public float jumpHeight = 7;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +25,10 @@ public class PlayerController : MonoBehaviour
 
         movementX = movementVector.x;
         movementY = movementVector.y;
-        Debug.Log("move");
+    }
+    void OnJump(){
+        rb.AddForce(Vector3.up * jumpHeight);
+        Debug.Log("jump ");
     }
 
 
@@ -33,5 +37,6 @@ public class PlayerController : MonoBehaviour
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
 
         rb.AddForce(movement * speed);
+        
     }
 }
