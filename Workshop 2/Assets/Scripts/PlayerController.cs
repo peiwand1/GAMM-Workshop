@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
 
         movementX = movementVector.x;
         movementY = movementVector.y;
+        Debug.Log("move");
     }
 
 
