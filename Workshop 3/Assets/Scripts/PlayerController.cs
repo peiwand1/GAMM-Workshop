@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-
+        pos = transform.position;
     }
 
     void OnMove()
