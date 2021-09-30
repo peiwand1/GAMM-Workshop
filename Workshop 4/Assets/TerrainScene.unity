@@ -1632,6 +1632,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 758120118}
+--- !u!122 &1750014709
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750014705}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4278190126
+  m_Size: 6
 --- !u!136 &1750014710
 CapsuleCollider:
   m_ObjectHideFlags: 0
