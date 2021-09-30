@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
     private int count;
     public int pickupAmount;
+    public GameObject enemy;
 
     void Start()
     {
@@ -31,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
         rb.MovePosition(transform.position + movement * speed * Time.deltaTime);
         if (count == pickupAmount)
         {
-            //destroy enemy
+            Destroy(enemy);
         }
     }
     private void OnTriggerEnter(Collider other)
